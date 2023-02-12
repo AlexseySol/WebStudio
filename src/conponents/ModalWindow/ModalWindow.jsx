@@ -2,10 +2,10 @@ import React from "react";
 import "./ModalWindow.scss";
 import { ReactComponent as Close } from "./close_menu.svg";
 
-export const ModalWindow = ({ clickCloseModal }) => {
+export const ModalWindow = ({ setActivModal }) => {
   return (
     <div className="modal_wrapper">
-      <button onClick={() => clickCloseModal(false)}>
+      <button onClick={() => setActivModal(false)}>
         <Close className="modal_close" />
       </button>
       <ul className="modal_nav__menu">
