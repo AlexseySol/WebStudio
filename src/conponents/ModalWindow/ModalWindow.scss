@@ -6,22 +6,24 @@
     0px 1px 3px rgba(0, 0, 0, 0.16);
   z-index: 1;
   width: 480px;
-  height: 796px;
+  height: 100%;
+  padding-left:  2.5rem;
+
 }
 .modal_close {
   position: fixed;
   top: 21px;
   right: 25px;
   fill: black;
- cursor: pointer;
+  cursor: pointer;
   &:active {
     fill: #2196f3;
   }
 }
 
 .modal_nav__menu {
-  margin-top: 3rem;
-  margin-left: 2.5rem;
+ margin-top: 3rem;
+ 
   li {
     font-family: "Roboto";
     font-style: normal;
@@ -34,24 +36,59 @@
     &:hover {
       color: #2196f3;
     }
+    &:nth-of-type(1) {
+      margin: 0px;
+    }
     &:nth-of-type(2) {
       margin: 2rem 0;
     }
   }
 }
-.modal_nav__contacts{
-    margin-left: 2.5rem;
-    margin-top: 19rem;
-    a{
-        font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 34px;
-line-height: 40px;
-color: #757575;
-
-&:hover{
-    color: #2196f3;
+.modal_nav__contacts {
+margin-top: 19.125rem;
+li{
+  margin-top: 6rem;
+  &:nth-of-type(2){
+    margin-top: 1rem;
+  }
 }
+  a {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    color: #757575;
+
+    &:hover {
+      color: #2196f3;
     }
+  }
+}
+.modal_nav__social {
+  margin-top: 4rem;
+  display: flex;
+  li{
+    border-right: 1px solid #21212133;
+    padding: 0 10px;
+    &:nth-of-type(4){
+     border: 0px;
+    }
+    &:nth-of-type(1){
+      padding-left: 0px;
+     }
+  }
+  a {
+    color: #2196f3;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    cursor: pointer;
+ 
+    }
+  
+  
 }

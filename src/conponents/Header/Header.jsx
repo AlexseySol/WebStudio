@@ -25,6 +25,8 @@ export function Header({ clickCloseModal,clickActivModal,ActivModal}) {
      ActivModal ?  <ModalWindow clickCloseModal={clickCloseModal}></ModalWindow>: false
    }  
   
+
+  
     </>
   );
 }
