@@ -1,0 +1,57 @@
+.modal_wrapper {
+  position: fixed;
+  top: 0;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
+    0px 1px 3px rgba(0, 0, 0, 0.16);
+  z-index: 1;
+  width: 480px;
+  height: 796px;
+}
+.modal_close {
+  position: fixed;
+  top: 21px;
+  right: 25px;
+  fill: black;
+ cursor: pointer;
+  &:active {
+    fill: #2196f3;
+  }
+}
+
+.modal_nav__menu {
+  margin-top: 3rem;
+  margin-left: 2.5rem;
+  li {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    cursor: pointer;
+    &:hover {
+      color: #2196f3;
+    }
+    &:nth-of-type(2) {
+      margin: 2rem 0;
+    }
+  }
+}
+.modal_nav__contacts{
+    margin-left: 2.5rem;
+    margin-top: 19rem;
+    a{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 40px;
+color: #757575;
+
+&:hover{
+    color: #2196f3;
+}
+    }
+}
