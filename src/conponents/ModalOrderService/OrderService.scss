@@ -10,14 +10,14 @@
   position: fixed;
   height: 609px;
   width: 93.8%;
-  top: 95px;
+  top: 60px;
   left: 3.1%;
   right: 3.1%;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  button {
+  .order_btn__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -48,23 +48,24 @@
   color: #212121;
   width: 75%;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 2.5%;
 }
 
 .order_input__wrapper {
   width: 77.1%;
-  margin: 30px auto;
+  margin: 20px auto;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   color: #757575;
+  &:nth-of-type(5){
+   margin: 5px auto;
+  }
   .person {
-  padding: 0 10px;
+    padding: 0 10px;
     fill: #212121;
-
-  
   }
   .order_input {
     display: flex;
@@ -72,11 +73,60 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     height: 40px;
-    margin-top: 4px; 
-    &:hover{
-    border: 1px solid #2196f3;
+    margin-top: 4px;
+    &:hover {
+      border: 1px solid #2196f3;
+    }
+  }
+}
+.order_input__comments{
+ margin-top: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+  textarea{
+    box-sizing: border-box;
+    border: 0px;
+    outline: none;
+    resize : none;
+    height: 120px;
+    padding: 12px 16px;
+  }
+}
+
+.order_input__checkbox_agreement{
+  width: 77.1%;
+  margin: 0px auto;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 14px;
+letter-spacing: 0.03em;
+text-align: center;
+
+
+color: #757575;
+a{
+  color: #2196f3;
+  text-decoration: dashed;
+}
+}
+.order_footer__btn{
   
-  }
-  }
- 
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  background: #188CE8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: #ffffff;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+margin: 20px auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
 }

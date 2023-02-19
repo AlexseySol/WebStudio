@@ -9,7 +9,7 @@ export const OrderService = ({ setActivOrder }) => {
   return (
     <div className="order_backround">
       <div className="order_wrapper">
-        <button onClick={() => setActivOrder(false)}>
+        <button className="order_btn__wrapper" onClick={() => setActivOrder(false)}>
           <CloseOrder className="order_btn" />
         </button>
         <div className="title">Залиште свої дані, ми вам передзвонимо</div>
@@ -21,6 +21,7 @@ export const OrderService = ({ setActivOrder }) => {
             <input type="text" />
           </div>
         </div>
+
         <div className="order_input__wrapper">
         Телефон
           <div className="order_input">
@@ -28,6 +29,7 @@ export const OrderService = ({ setActivOrder }) => {
             <input type="text" />
           </div>
         </div>
+
         <div className="order_input__wrapper">
         Пошта
           <div className="order_input">
@@ -35,7 +37,21 @@ export const OrderService = ({ setActivOrder }) => {
             <input type="text" />
           </div>
         </div>
+     <div className="order_input__wrapper">
+     Коментар
+       <div className="order_input__comments">
+        
+          <textarea placeholder="Введіть текст" ></textarea>
+        </div>
+     </div>
+       
+        <div className="order_input__checkbox_agreement">
+          <input type="checkbox"  />
+          Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a> 
+        </div>
+        <button className="order_footer__btn">Відправити</button>
       </div>
+      
     </div>
   );
 };
