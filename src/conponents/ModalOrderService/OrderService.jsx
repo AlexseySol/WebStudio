@@ -49,7 +49,7 @@ export const OrderService = ({ setActivOrder }) => {
           <input type="checkbox"  />
           Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a> 
         </div>
-        <button className="order_footer__btn">Відправити</button>
+        <button  onClick={() => setActivOrder(false)} className="order_footer__btn">Відправити</button>
       </div>
       
     </div>
