@@ -4,7 +4,7 @@ import { Header } from "./conponents/Header/Header";
 
 function App() {
   const [ActivModal, setActivModal] = React.useState(false);
-  const [ActivOrder, setActivOrder] = React.useState(true);
+  const [ActivOrder, setActivOrder] = React.useState(false);
 
   return (
     <div className="wrapper">
