@@ -23,10 +23,18 @@ export const ModalWindow = ({ setActivModal }) => {
         </li>
       </ul>
       <ul className="modal_nav__social">
-        <li><a href="https://www.instagram.com/">Instagram</a></li>
-        <li><a href="https://twitter.com/?lang=ru">Twitter</a></li>
-        <li><a href="https://uk-ua.facebook.com/">Facebook</a></li>
-        <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+        <li>
+          <a href="https://www.instagram.com/">Instagram</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/?lang=ua">Twitter</a>
+        </li>
+        <li>
+          <a href="https://uk-ua.facebook.com/">Facebook</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/">LinkedIn</a>
+        </li>
       </ul>
     </div>
   );

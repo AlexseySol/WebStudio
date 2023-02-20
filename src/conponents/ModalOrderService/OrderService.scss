@@ -7,24 +7,24 @@
   height: 100%;
 }
 .order_wrapper {
-  box-sizing: content-box;
-  position: fixed;
-  height: 92%;
+  margin: 1rem auto;
+  height: 95%;
   width: 93.8%;
-  top: 6%;
-  left: 3.1%;
- 
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  @media (min-width: 480px) {
+    width: 450px;
+  }
+
   .order_btn__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: absolute;
-    right: 2.3%;
-    top: 2%;
+    position: relative;
+    left: 90%;
+    top: 4%;
     width: 30px;
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -49,7 +49,6 @@
   color: #212121;
   width: 75%;
   margin: 0 auto;
-  margin-top: 2.5%;
 }
 
 .order_input__wrapper {
@@ -61,8 +60,8 @@
   font-size: 12px;
   line-height: 14px;
   color: #757575;
-  &:nth-of-type(5){
-   margin: 0.6% auto;
+  &:nth-of-type(5) {
+    margin: 0.6% auto;
   }
   .person {
     padding: 0 10px;
@@ -80,53 +79,52 @@
     }
   }
 }
-.order_input__comments{
- margin-top: 4px;
+.order_input__comments {
+  margin-top: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-border-radius: 4px;
-  textarea{
+  border-radius: 4px;
+  textarea {
     box-sizing: border-box;
     border: 0px;
     outline: none;
-    resize : none;
+    resize: none;
     height: 19vh;
     padding: 12px 16px;
   }
 }
 
-.order_input__checkbox_agreement{
+.order_input__checkbox_agreement {
   width: 77.1%;
   margin: 0px auto;
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 11px;
-line-height: 14px;
-letter-spacing: 0.03em;
-text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.03em;
+  text-align: center;
 
-
-color: #757575;
-a{
-  color: #2196f3;
-  text-decoration: dashed;
+  color: #757575;
+  a {
+    color: #2196f3;
+    text-decoration: dashed;
+  }
 }
-}
-.order_footer__btn{ 
+.order_footer__btn {
   cursor: pointer;
   width: 200px;
   height: 50px;
-  background: #188CE8;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-color: #ffffff;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 30px;
-margin: 30px auto;
-display: flex;
-justify-content: space-around;
-align-items: center;
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

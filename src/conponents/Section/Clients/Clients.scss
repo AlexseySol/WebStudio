@@ -1,0 +1,57 @@
+.clients_wrapper{
+  padding: 0 15px;
+  padding-bottom: 60px;
+  h2{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin: 60px 0px 30px 0px;
+@media (min-width: 1100px) {
+  font-size: 34px;
+  margin: 90px 0px 30px 0px;
+    }
+  }
+  @media (min-width: 1100px) {
+padding: 0 12%;
+padding-bottom: 60px;
+  }
+}
+.wrapper_card_clients{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 5.5%;
+div{
+  border: 1px solid #AFB1B8;
+border-radius: 4px;
+width: 100%;
+height: 92px;
+display: flex;
+justify-content: center;
+align-items: center;
+&:hover{
+  border: 1px solid #2196F3;
+}
+}
+@media (min-width: 533px) {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media (min-width: 1100px) {
+  display: flex;
+  gap: 3%;
+}
+}
+
+.logo_wrapper{
+  width: 100%;
+  fill: #AFB1B8;
+  &:hover{
+    fill: #2196F3;
+  }
+}
+
+
