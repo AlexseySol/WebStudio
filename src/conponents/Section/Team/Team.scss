@@ -54,6 +54,7 @@
   img {
     width: 100%;
     height: 460px;
+    object-fit: cover;
     @media (min-width: 553px) {
       height: 330px;
     }
