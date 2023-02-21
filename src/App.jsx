@@ -11,6 +11,7 @@ import { ReactComponent as Instagram } from "./conponents/Section/svg/instagram.
 import { ReactComponent as Facebook } from "./conponents/Section/svg/facebook.svg";
 import { ReactComponent as Twitter } from "./conponents/Section/svg/twitter.svg";
 import { ReactComponent as Linkedin } from "./conponents/Section/svg/linkedin.svg";
+import { Footer } from "./conponents/Footer/Footer";
 
 
 function App() {
@@ -162,6 +163,7 @@ function App() {
         ActivOrder={ActivOrder}
       ></Header>
       <Section arrayInfo={arrayInfo} arrayTeam={arrayTeam}  />
+      <Footer />
     </div>
   );
 }

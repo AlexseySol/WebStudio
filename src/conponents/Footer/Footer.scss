@@ -1,0 +1,106 @@
+.footer_wrapper {
+  background: #2f303a;
+  max-width: 553px;
+  height:100%;
+  padding: 0 15px;
+}
+.footer_title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: white;
+  padding: 60px 0 28px 0;
+  span {
+    color: #2196f3;
+  }
+}
+.footer_map {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer_contacts {
+  li {
+    text-align: center;
+    &:nth-of-type(1) {
+      padding: 12px 0px;
+    }
+    a {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+}
+h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer_social {
+  display: flex;
+  justify-content: center;
+  a {
+    display: flex;
+    padding: 0px 5px;
+  }
+}
+.footer_wrapper_input {
+  display: flex;
+  justify-content: center;
+  input {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 450px;
+    background-color: #2f303a;
+    padding-left: 16px;
+    height: 50px;
+  }
+}
+.footer_btn{
+display: flex;
+justify-content: center;
+margin: 30px 0px 60px 0px;
+  button{
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+  }
+
+.btn_last{
+  padding-left: 5px;
+
+}
+}
