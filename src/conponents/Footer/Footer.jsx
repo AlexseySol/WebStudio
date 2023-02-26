@@ -9,7 +9,7 @@ import { ReactComponent as Btn } from "./svg/btn.svg";
 export const Footer = () => {
   return (
     <div className="footer_wrapper">
-      <div className="text_aling">
+      <div >
         <div className="footer_title">
           Web<span>Studio</span>
         </div>
@@ -23,30 +23,30 @@ export const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="text_aling">
+      <div >
         <h4>приєднуйтесь</h4>
         <ul className="footer_social">
           <li>
             <a href="https://www.instagram.com/">
               {" "}
-              <InstagramF />{" "}
+              <InstagramF className="social_btn__hover" />{" "}
             </a>
           </li>
           <li>
             <a href="https://twitter.com/?lang=ua">
               {" "}
-              <TwitterF />{" "}
+              <TwitterF className="social_btn__hover" />{" "}
             </a>
           </li>
           <li>
             <a href="https://uk-ua.facebook.com/">
               {" "}
-              <FacebookF />{" "}
+              <FacebookF className="social_btn__hover" />{" "}
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/">
-              <LinkedinF />
+              <LinkedinF className="social_btn__hover" />
             </a>
           </li>
         </ul>

@@ -2,8 +2,24 @@
   background: #2f303a;
   max-width: 553px;
   padding: 0 2%;
-  
- 
+  height: 580px;
+@media (min-width:554px) {
+  max-width: 796px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+height:456px;
+}
+@media (min-width:796px) {
+max-width: 1900px;
+display: flex;
+height: 251px;
+}
+@media (min-width:796px)  and (max-width: 1050px) {
+
+  height: 400px;
+  }
   }
 
 .footer_title {
@@ -19,6 +35,9 @@
   span {
     color: #2196f3;
   }
+  @media (min-width:1050px) {
+    text-align: start;
+      }
 }
 .footer_map {
   font-family: "Roboto";
@@ -29,10 +48,16 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
+  @media (min-width:1050px) {
+    text-align: start;
+      }
 }
 .footer_contacts {
   li {
     text-align: center;
+    @media (min-width:1050px) {
+      text-align: start;
+        }
     &:nth-of-type(1) {
       padding: 12px 0px;
     }
@@ -44,8 +69,10 @@
       line-height: 16px;
       letter-spacing: 0.03em;
       color: rgba(255, 255, 255, 0.6);
+      
     }
   }
+  
 }
 h4 {
   font-family: "Roboto";
@@ -57,6 +84,10 @@ h4 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+
+  @media (min-width:1050px) {
+    text-align: start;
+      }
 
 }
 .footer_social {
@@ -71,7 +102,7 @@ h4 {
 .footer_wrapper_input {
   display: flex;
   justify-content: center;
- 
+  margin: 0rem 1rem 0rem 0px;
   input {
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -86,6 +117,9 @@ h4 {
   display: flex;
   justify-content: center;
   padding: 30px 0px 60px 0px;
+  @media (min-width:796px) {
+ padding: 0px;
+     }
   button {
     width: 200px;
     height: 50px;
@@ -107,11 +141,22 @@ h4 {
   .btn_last {
     padding-left: 5px;
   }
+
 }
 .block_email{
   display: flex;
   flex-direction: column;
 
+  @media (min-width:796px ) {
+   flex-direction: row;
+    }
   }
- 
 
+.social_btn__hover{
+  fill: white;
+  fill-opacity: 1;
+  &:hover{
+    fill: #3a98e6;
+    
+  }
+}
